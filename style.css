@@ -1,0 +1,81 @@
+table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-weight: bold;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  li {
+    list-style: none;
+  }
+  thead > tr > td > ul > li {
+    padding: 0 20px 0 0;
+  }
+  thead > tr > td > ul > li:first-child {
+    padding: 0 20px 20px 0px;
+  }
+  thead > tr > td > ul > li:nth-child(2) {
+    font-size: 35px;
+  }
+  thead > tr > td:first-child {
+    padding: 30px;
+    color: white;
+    background-color: #7887ab;
+    font-size: 18px;
+  }
+  thead > tr > td:nth-child(2) {
+    color: white;
+    background-color: #4f628e;
+  }
+  thead > tr > td:nth-child(3) {
+    color: white;
+    background-color: #2e4172;
+  }
+  thead > tr > td:nth-child(4) {
+    color: white;
+    background-color: #162955;
+  }
+  thead > tr > td:nth-child(5) {
+    color: white;
+    background-color: #061539;
+  }
+  
+  tbody > tr:nth-child(2n-1) > td:nth-child(2n-1) {
+    background-color: #dbdbdb;
+  }
+  tbody > tr:nth-child(2n) > td:nth-child(2n-1) {
+    background-color: #e7e7e7;
+  }
+  tbody > tr:nth-child(1n) > td:nth-child(2n) {
+    background-color: #e7e7e7;
+  }
+  tbody > tr:nth-child(2n) > td:nth-child(2n) {
+    background-color: #f3f3f3;
+  }
+  tbody > tr > td:not(:first-child) {
+    text-align: center;
+  }
+  tbody > tr > td {
+    padding: 10px;
+  }
+  
+  tfoot > tr > td {
+    padding: 20px;
+  }
+  tfoot > tr > td > button {
+    border-radius: 0;
+    border: 1px solid rgb(211, 209, 209);
+    padding: 10px;
+    width: 100px;
+  }
+  tfoot > tr > td:nth-child(1n + 1) {
+    background-color: #dbdbdb;
+  }
+  tfoot > tr > td:nth-child(2n) {
+    background-color: #e7e7e7;
+  }
+  button:hover{
+      background-color: lightgray;
+  }
